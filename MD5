@@ -1,0 +1,12 @@
+953f3ed384e493c1b626d44cfa30c5ba *DESCRIPTION
+c709d0dbc7489c0063263a61c48906de *NAMESPACE
+d2d27913007798b32eded8f2146822bd *NEWS.md
+98b47f2df17c41985a3eae41a430dfff *R/maxtwin.R
+5f71f568d7749192eab6429596aaa1cc *R/utils.R
+3f5150335b34b7de4db35e43456c2834 *README.md
+21c9401b8c07f38d762ade4612fc4ffe *build/partial.rdb
+0f82f6f2d97e6b43c77584050e633a73 *man/initialmaxtwin.Rd
+230faaf8bcba6c9a887d5ad693f754ba *man/maxtwin.Rd
+5bfd602740f28612f45bae886b0da737 *tests/testthat.R
+01b508eed58eb031fed56fee5a42528a *tests/testthat/test-maxtwin.R
+20f5aebefb47040a9fc986f268c6b8af *tests/testthat/test-utils.R

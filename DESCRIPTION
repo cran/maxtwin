@@ -1,0 +1,27 @@
+Package: maxtwin
+Title: A Robust Deterministic Data Splitting Method
+Version: 0.1.0
+Authors@R: c(
+    person("Youngseo", "Cho", role = c("aut", "cre"),
+           email = "ycho397@gatech.edu"),
+    person("V. Roshan", "Joseph", role = c("aut"),
+           email = "roshan@gatech.edu"))
+Description: Provides a deterministic method for splitting data into training
+    and testing sets that maximizes the distance between training and testing
+    points while preserving their distributions. See Joseph and Cho (in press)
+    for details. This work is supported by U.S. National Science Foundation
+    grant DMS-2310637.
+License: GPL (>= 3)
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: FNN, twinning (>= 1.1)
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.3
+NeedsCompilation: no
+Packaged: 2026-10-19 12:50:11 UTC; ycho397
+Author: Youngseo Cho [aut, cre],
+  V. Roshan Joseph [aut]
+Maintainer: Youngseo Cho <ycho397@gatech.edu>
+Repository: CRAN
+Date/Publication: 2026-10-29 11:40:02 UTC
