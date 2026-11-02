@@ -2,7 +2,7 @@
 #'
 #' @description Selects testing points by maximizing nearest-neighbor distance
 #'   within each Voronoi cell induced by the twinning set of Vakayil and Joseph
-#'   (2022). This is Step 1 of the algorithm of Joseph and Cho (in press), without
+#'   (2022). This is Step 1 of the algorithm of Joseph and Cho (2026), without
 #'   iterative improvement of the separation distance.
 #'
 #' @param X Matrix or data frame of inputs (N x p). Columns may be numeric or
@@ -24,9 +24,10 @@
 #' Analysis and Data Mining: The ASA Data Science Journal}, 15(5), 598--610.
 #' \doi{10.1002/sam.11574}.
 #'
-#' Joseph, V.R. and Cho, Y. (in press). A Robust Deterministic Data Splitting
+#' Joseph, V.R. and Cho, Y. (2026). A Robust Deterministic Data Splitting
 #' Method for Model Validation. \emph{Journal of Computational and Graphical
-#' Statistics}.
+#' Statistics}, 1--16.\cr
+#' \doi{10.1080/10618600.2026.2754089}.
 #'
 #' @export
 initialmaxtwin <- function(X, Y = NULL, splitratio,
@@ -54,7 +55,7 @@ initialmaxtwin <- function(X, Y = NULL, splitratio,
 #' @title MaxTwin Algorithm
 #'
 #' @description Implements the robust deterministic data-splitting algorithm
-#'   of Joseph and Cho (in press). Step 1 selects testing points using twinning,
+#'   of Joseph and Cho (2026). Step 1 selects testing points using twinning,
 #'   Voronoi partitioning, and maximum nearest-neighbor distance. Step 2
 #'   iteratively improves separation if needed.
 #'
@@ -62,15 +63,16 @@ initialmaxtwin <- function(X, Y = NULL, splitratio,
 #' @return A vector of testing point indices.
 #'
 #' @details
-#' See Joseph and Cho (in press) for details.
+#' See Joseph and Cho (2026) for details.
 #'
 #' Note that \code{splitratio} must be \code{1/r} for integer \code{r >= 2},
 #' due to the constraint of the underlying twinning algorithm.
 #'
 #' @references
-#' Joseph, V.R. and Cho, Y. (in press). A Robust Deterministic Data Splitting
+#' Joseph, V.R. and Cho, Y. (2026). A Robust Deterministic Data Splitting
 #' Method for Model Validation. \emph{Journal of Computational and Graphical
-#' Statistics}.
+#' Statistics}, 1--16.\cr
+#' \doi{10.1080/10618600.2026.2754089}.
 #'
 #' @examples
 #' set.seed(42)

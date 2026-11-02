@@ -1,3 +1,10 @@
+# maxtwin 0.1.1
+
+* Updated references to Joseph and Cho (2026) with the published article's DOI
+  and page range.
+* Updated the CRAN installation instructions.
+* No changes to algorithms, public interfaces, or dependencies.
+
 # maxtwin 0.1.0
 
 * Initial release.

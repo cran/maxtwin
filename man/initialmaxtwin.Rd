@@ -36,7 +36,7 @@ A vector of testing point indices.
 \description{
 Selects testing points by maximizing nearest-neighbor distance
 within each Voronoi cell induced by the twinning set of Vakayil and Joseph
-(2022). This is Step 1 of the algorithm of Joseph and Cho (in press), without
+(2022). This is Step 1 of the algorithm of Joseph and Cho (2026), without
 iterative improvement of the separation distance.
 }
 \references{
@@ -44,7 +44,8 @@ Vakayil, A. and Joseph, V.R. (2022). Data Twinning. \emph{Statistical
 Analysis and Data Mining: The ASA Data Science Journal}, 15(5), 598--610.
 \doi{10.1002/sam.11574}.
 
-Joseph, V.R. and Cho, Y. (in press). A Robust Deterministic Data Splitting
+Joseph, V.R. and Cho, Y. (2026). A Robust Deterministic Data Splitting
 Method for Model Validation. \emph{Journal of Computational and Graphical
-Statistics}.
+Statistics}, 1--16.\cr
+\doi{10.1080/10618600.2026.2754089}.
 }

@@ -12,7 +12,6 @@ The method is robust to paired and clustered data, where methods like random spl
 ## Installation
 
 ```r
-# After CRAN release
 install.packages("maxtwin")
 ```
 
@@ -96,7 +95,7 @@ Tests cover:
 
 ## Reference
 
-Joseph, V.R. and Cho, Y. (in press). A Robust Deterministic Data Splitting Method for Model Validation. *Journal of Computational and Graphical Statistics*.
+Joseph, V.R. and Cho, Y. (2026). A Robust Deterministic Data Splitting Method for Model Validation. *Journal of Computational and Graphical Statistics*, 1-16. https://doi.org/10.1080/10618600.2026.2754089
 
 ## License
 
